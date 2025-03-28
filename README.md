@@ -26,3 +26,5 @@ The key tables used in this analysis include :
 
 - **album :** Contains album details and links each album to an artist
 
+## Database Schema
+![Database Schema](schema_diagram.png)
