@@ -16,15 +16,14 @@ The key tables used in this analysis include :
 
 - **invoices :** Sales invoices for music purchases
 
-- **invoice_line :** Detailed breakdown of each invoice_line
-
 - **tracks :** Song details, duration, genres
 
 - **genre :** Categorizes tracks into different music genres
 
 - **artists :** Store artist details with artist_id and name
 
-- **album :** Contains album details and links each album to an artist
 
 ## Database Schema
 ![Database Schema](schema_diagram.png)
+
+## Key SQL Queries and Insights
