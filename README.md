@@ -1,31 +1,28 @@
 # Music-Store-SQL-Analysis
 This project analyzes a Music Store database to uncover customer spending patterns, sales trends, top-selling artists and popular music genres using SQL joins, aggregations, subqueries, CTEs and recursive queries for better insights.
 
-Music Store SQL Analysis
-This project analyzes a Music Store database to uncover customer spending patterns, sales trends, top-selling artists and popular music genres using SQL joins, aggregations, subqueries, CTEs and recursive quries for data insights.
+## Technology Used
 
-Technology Used
-SQL: Joins, Aggregations, Subqueries, CTEs, Recursive Queries
+**SQL:** Joins, Aggregations, Subqueries, CTEs, Recursive Queries
 
-Database: PostgreSQL
+**Database:** PostgreSQL
 
-Dataset Information
-The key tables used in this analysis include -
 
-customer : Customer details and purchase history
+## Dataset Information
 
-invoices: Sales invoices for music purchases
+The key tables used in this analysis include :
 
-invoice_line: Detailed breakdown of each invoice_line
+- **customer :** Customer details and purchase history    
 
-tracks: Song details, duration, genres
+- **invoices :** Sales invoices for music purchases
 
-genre: Categorizes tracks into different music genres
+- **invoice_line :** Detailed breakdown of each invoice_line
 
-artists: Store artist details with artist_id and name
+- **tracks :** Song details, duration, genres
 
-album: Contains album details and links each album to an artist
+- **genre :** Categorizes tracks into different music genres
 
-Key SQL Queries and Insights
-Most popular music genre for each country based on purchases
+- **artists :** Store artist details with artist_id and name
+
+- **album :** Contains album details and links each album to an artist
 
