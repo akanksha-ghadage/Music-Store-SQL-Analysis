@@ -7,7 +7,6 @@ This project analyzes a Music Store database to uncover customer spending patter
 
 **Database:** PostgreSQL
 
-
 ## Dataset Information
 
 The key tables used in this analysis include :
@@ -22,9 +21,10 @@ The key tables used in this analysis include :
 
 - **artists :** Store artist details with artist_id and name
 
-
 ## Database Schema
 ![Database Schema](schema_diagram.png)
+
+<br>
 
 ## Key SQL Queries and Insights
 
@@ -49,6 +49,8 @@ select * from popular_genre WHERE RowNo <= 1
 
 Insight : Finds the most popular music genre per country based on purchases.
 
+<br>
+
 ### 2. Customer that has spent the most on music for each country
 ```sql 
 WITH customer_with_country AS(
@@ -61,6 +63,8 @@ WITH customer_with_country AS(
 SELECT * FROM customer_with_country WHERE RowNo <= 1
 ```
 Insight : Determines the top-spending customer in each country.
+
+<br>
 
 ### 3. Artists who has written the most Rock music(Top 10 Rock bands)
 ```sql
@@ -89,6 +93,8 @@ For all SQL queries, check the queries.sql file in this repository.
 - The USA has the highest number of invoices, while Prague generates the highest total invoice value.
 
 - The most senior employee has been with the company since 2016.
+
+<br>
 
 ## How to Use This Project 
 
