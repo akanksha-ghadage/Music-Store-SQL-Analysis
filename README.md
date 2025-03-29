@@ -21,6 +21,8 @@ The key tables used in this analysis include :
 
 - **artists :** Store artist details with artist_id and name
 
+<br> 
+
 ## Database Schema
 ![Database Schema](schema_diagram.png)
 
@@ -96,20 +98,7 @@ For all SQL queries, check the queries.sql file in this repository.
 
 <br>
 
-## How to Use This Project 
-
-1. Clone the repository:
-
-```sql
-git Clone
-https://github.com/akanksha-ghadage/Music-Store-SQL-Analysis.git
-cd music-store-sql-analysis
-```
-2. Open the SQL file in PostgreSQL and run the queries.
-
-3. Analyze the insights from the results.
-
 ## Connect with me
 
 
-**[Linkedin](https://www.linkedin.com/in/akanksha-ghadage?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BdlFNzzQrTAiOhMUx8JAUmA%3D%3D)**    &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp; &emsp; &emsp; &emsp; &emsp;  **[GitHub](https://github.com/akanksha-ghadage)**
+**[Linkedin](https://www.linkedin.com/in/akanksha-ghadage?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BdlFNzzQrTAiOhMUx8JAUmA%3D%3D)**    &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  **[GitHub](https://github.com/akanksha-ghadage)**
